@@ -12,7 +12,7 @@
     }
    
 $file = "userdata.csv";
-$handle = fopen("userdata.csv", "a");
+$handle = fopen("userdata.csv", "w");
 
 fputcsv($handle, $data);
 
